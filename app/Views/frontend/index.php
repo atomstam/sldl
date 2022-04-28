@@ -104,6 +104,7 @@
                             <li aria-haspopup="true"><a href="<?= base_url(); ?>">หน้าหลัก </a></li>
                                 <li aria-haspopup="true"><a href="about.html">หลักสูตร </a></li>
                                 <li aria-haspopup="true"><a href="widgets.html">ความเป็นมา</a></li>
+                                <li aria-haspopup="true"><a href="about.html">ติดต่อ </a></li>
                                 <li aria-haspopup="true"><a href="<?= base_url('/login'); ?>"> เข้าสู่ระบบ</a></li>
                                 <li aria-haspopup="true" class="p-0 mt-1">
                                     <span><a class="btn btn-primary" href="<?= base_url('/register'); ?>">ลงทะเบียน</a></span>
