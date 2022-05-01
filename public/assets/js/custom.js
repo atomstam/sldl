@@ -3,7 +3,8 @@
 	
 	// ______________ Global Loader
 	$(window).on("load", function(e) {
-		$("#global-loader").fadeOut("slow");
+	//	$("#global-loader").fadeOut("slow");
+		$("#global-loader").fadeOut("fast");
 	})
 	
 	

@@ -20,7 +20,7 @@
 		<link href="<?= base_url(); ?>/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" />
 
 		<!-- Style css -->
-		<link href="<?= base_url(); ?>/assets/css/style.css" rel="stylesheet" />
+		<link href="<?= base_url(); ?>/assets/css/style_ff.css" rel="stylesheet" />
 
 		<!-- Font-awesome  css -->
 		<link href="<?= base_url(); ?>/assets/css/icons.css" rel="stylesheet"/>
@@ -35,7 +35,7 @@
 		<link href="<?= base_url(); ?>/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
 
 		<!-- Color Skin css -->
-		<link id="theme" rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>/assets/color-skins/color.css" />
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>/assets/color-skins/color_ff.css" />
 
 	</head>
 
@@ -43,7 +43,7 @@
 
 		<!--Loader-->
 		<div id="global-loader">
-			<img src="<?= base_url(); ?>/assets/images/loader.svg" class="loader-img" alt="img">
+			<img src="<?= base_url(); ?>/assets/images/loader_f.svg" class="loader-img" alt="img">
 		</div><!--/Loader-->
 
 		<!--Topbar-->

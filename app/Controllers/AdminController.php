@@ -16,7 +16,7 @@ class AdminController extends Controller {
     public function listUsers() {
         $userModel = new UsersModel;
         $data['users'] = $userModel->orderBy('ID', 'DESC')->findAll();
-        return view('templates/admin/header').view('templates/admin/navbar').view('templates/admin/sidebar').view('admin/listUsers', $data).view('templates/admin/footer');
+        return view('templates/admin/header').view('templates/admin/navbar').view('templates/admin/sidebar').view('Admin/listUsers', $data).view('templates/admin/footer');
     }
 
     public function createUser() {
@@ -105,7 +105,7 @@ class AdminController extends Controller {
                 'status' => $this->request->getVar('status')
             ];
             $model->save($data);
-            return redirect()->to(base_url('/admin/listUsers'))->with('msg', 'เพิ่มผู้ใช้สำเร็จ');
+            return redirect()->to(base_url('/Admin/listUsers'))->with('msg', 'เพิ่มผู้ใช้สำเร็จ');
         } else {
             $data['validation'] = $this->validator;
             echo view('templates/admin/header', $data);
@@ -142,13 +142,13 @@ class AdminController extends Controller {
             'status' => $this->request->getVar('status')
         ];
         $userModel->update($id, $data);
-        return redirect()->to(base_url('/admin/listUsers'))->with('msg', 'แก้ไขข้อมูลผู้ใช้สำเร็จ');
+        return redirect()->to(base_url('/Admin/listUsers'))->with('msg', 'แก้ไขข้อมูลผู้ใช้สำเร็จ');
     }
 
     public function deleteUser($id = null) {
         $userModel = new UsersModel;
         $data['user'] = $userModel->where('ID', $id)->delete($id);
-        return redirect()->to(base_url('/admin/listUsers'))->with('msg', 'ลบข้อมูลผู้ใช้สำเร็จ');
+        return redirect()->to(base_url('/Admin/listUsers'))->with('msg', 'ลบข้อมูลผู้ใช้สำเร็จ');
     }
 
     public function profile() {
@@ -158,7 +158,7 @@ class AdminController extends Controller {
         echo view('templates/admin/header', $data);
         echo view('templates/admin/navbar', $data);
         echo view('templates/admin/sidebar', $data);
-        echo view('/admin/profile', $data);
+        echo view('/Admin/profile', $data);
         echo view('templates/admin/footer', $data);
     }
 

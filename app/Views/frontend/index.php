@@ -20,7 +20,7 @@
     <link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" />
 
     <!-- Style css -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/style_ff.css" rel="stylesheet" />
 
     <!-- Font-awesome  css -->
     <link href="assets/css/icons.css" rel="stylesheet"/>
@@ -38,7 +38,7 @@
     <link href="assets/plugins/jquery.flexdatalist/jquery.flexdatalist.css" rel="stylesheet">
 
     <!-- Color Skin css -->
-    <link id="theme" rel="stylesheet" type="text/css" media="all" href="assets/color-skins/color.css" />
+    <link id="theme" rel="stylesheet" type="text/css" media="all" href="assets/color-skins/color_ff.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,7 +63,7 @@
 <body>
     <!--Loader-->
 <div id="global-loader">
-    <img src="../../assets/images/loader.svg" class="loader-img" alt="img">
+    <img src="../../assets/images/loader_f.svg" class="loader-img" alt="img">
 </div><!--/Loader-->
 
 <!--Page-->
@@ -104,7 +104,7 @@
                             <li aria-haspopup="true"><a href="<?= base_url(); ?>">หน้าหลัก </a></li>
                                 <li aria-haspopup="true"><a href="about.html">หลักสูตร </a></li>
                                 <li aria-haspopup="true"><a href="widgets.html">ความเป็นมา</a></li>
-                                <li aria-haspopup="true"><a href="about.html">ติดต่อ </a></li>
+                                <li aria-haspopup="true"><a href="about.html">ติดต่อฉัน </a></li>
                                 <li aria-haspopup="true"><a href="<?= base_url('/login'); ?>"> เข้าสู่ระบบ</a></li>
                                 <li aria-haspopup="true" class="p-0 mt-1">
                                     <span><a class="btn btn-primary" href="<?= base_url('/register'); ?>">ลงทะเบียน</a></span>
@@ -1691,7 +1691,7 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-lg-7 col-md-12">
-                            <img src="../../<?=base_url()?>/assets/images/brand/logo-white.png" class="w-auto border-0" alt="img">
+                            <img src="<?=base_url()?>/assets/images/brand/logo-white.png" class="w-auto border-0" alt="img">
                             <ul class="list-unstyled mb-0 mt-4">
                                 <li>
                                     <a href="javascript:void(0)">Second stret, New York, NY 10012, US</a>
