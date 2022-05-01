@@ -51,7 +51,7 @@
 
 		<!--Loader-->
 		<div id="global-loader">
-			<img src="<?=base_url()?>/assets/images/loader.svg" class="loader-img" alt="">
+			<img src="<?=base_url()?>/assets/images/loader-f.svg" class="loader-img" alt="">
 		</div>
 		<!--/Loader-->
 

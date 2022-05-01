@@ -128,7 +128,7 @@
 						<div class="horizontal-header clearfix ">
 							<div class="container">
 								<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
-								<span class="smllogo"><img src="<?= base_url(); ?>/assets/images/brand/logo1.png" width="120" alt="img"/></span>
+								<span class="smllogo"><img src="<?= base_url(); ?>/assets/images/brand/logo.png" width="120" alt="img"/></span>
 								<span class="smllogo-white"><img src="<?= base_url(); ?>/assets/images/brand/logo.png" width="120" alt="img"/></span>
 								<a href="tel:245-6325-3256" class="callusbtn"><i class="icon icon-phone" aria-hidden="true"></i></a>
 							</div>
@@ -141,8 +141,8 @@
 						<div class="horizontal-mainwrapper container clearfix">
 							<div class="desktoplogo">
 								<a href="<?= base_url(); ?>">
-									<img src="<?= base_url(); ?>/assets/images/brand/logo1.png" alt="img">
-									<img src="<?= base_url(); ?>/assets/images/brand/logo1.png" class="header-brand-img header-white" alt="logo">
+									<img src="<?= base_url(); ?>/assets/images/brand/logo-white.png" alt="img">
+									<img src="<?= base_url(); ?>/assets/images/brand/logo.png" class="header-brand-img header-white" alt="logo">
 								</a>
 							</div>
 							<div class="desktoplogo-1">

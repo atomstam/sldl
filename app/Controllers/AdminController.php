@@ -21,7 +21,7 @@ class AdminController extends Controller {
 
     public function createUser() {
         helper(['form']);
-        return view('templates/admin/header').view('templates/admin/navbar').view('templates/admin/sidebar').view('admin/createUser').view('templates/admin/footer');
+        return view('templates/admin/header').view('templates/admin/navbar').view('templates/admin/sidebar').view('Admin/createUser').view('templates/admin/footer');
     }
 
     public function storeUser() {
@@ -142,13 +142,13 @@ class AdminController extends Controller {
             'status' => $this->request->getVar('status')
         ];
         $userModel->update($id, $data);
-        return redirect()->to(base_url('/Admin/listUsers'))->with('msg', 'แก้ไขข้อมูลผู้ใช้สำเร็จ');
+        return redirect()->to(base_url('/admin/listUsers'))->with('msg', 'แก้ไขข้อมูลผู้ใช้สำเร็จ');
     }
 
     public function deleteUser($id = null) {
         $userModel = new UsersModel;
         $data['user'] = $userModel->where('ID', $id)->delete($id);
-        return redirect()->to(base_url('/Admin/listUsers'))->with('msg', 'ลบข้อมูลผู้ใช้สำเร็จ');
+        return redirect()->to(base_url('/admin/listUsers'))->with('msg', 'ลบข้อมูลผู้ใช้สำเร็จ');
     }
 
     public function profile() {
