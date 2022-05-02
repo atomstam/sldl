@@ -1,7 +1,7 @@
 /*white variables*/
 /*black variables*/
 a:hover {
-  color: #a4ce99;
+  color: #1a7104;
   text-decoration: none;
 }
 
@@ -718,30 +718,30 @@ a.chip:hover {
 }
 
 .horizontalMenu > .horizontalMenu-list > li > a.active {
-  color: #a4ce99;
+  color: #1a7104;
 }
 
 .horizontalMenu > .horizontalMenu-list > li:hover > a {
-  color: #a4ce99;
+  color: #1a7104;
 }
 
 .horizontalMenu > .horizontalMenu-list > li:hover > a .fa {
-  background-color: #a4ce99;
+  background-color: #1a7104;
   color: #fff !important;
 }
 
 .horizontalMenu > .horizontalMenu-list > li > ul.sub-menu > li:hover > a {
-  background-color: #a4ce99;
+  background-color: #1a7104;
   color: #fff !important;
 }
 
 .horizontalMenu > .horizontalMenu-list > li > ul.sub-menu > li > ul.sub-menu > li:hover > a {
-  background-color: #a4ce99;
+  background-color: #1a7104;
   color: #fff !important;
 }
 
 .horizontalMenu > .horizontalMenu-list > li > ul.sub-menu > li > ul.sub-menu > li > ul.sub-menu > li:hover a {
-  background-color: #a4ce99;
+  background-color: #1a7104;
   color: #fff;
 }
 
@@ -1442,7 +1442,7 @@ form.convFormDynamic button.submit:hover {
 }
 
 .bg-background-1 .sticky-wrapper .horizontalMenu > .horizontalMenu-list > li:hover > a, .banner1 .sticky-wrapper .horizontalMenu > .horizontalMenu-list > li:hover > a {
-  color: #a4ce99;
+  color: #1a7104;
 }
 
 .bg-background-1 .sticky-wrapper.is-sticky .horizontalMenu > .horizontalMenu-list > li > a.active, .banner1 .sticky-wrapper.is-sticky .horizontalMenu > .horizontalMenu-list > li > a.active {
@@ -1451,7 +1451,7 @@ form.convFormDynamic button.submit:hover {
 }
 
 .bg-background-1 .sticky-wrapper.is-sticky .horizontalMenu > .horizontalMenu-list > li:hover > a, .banner1 .sticky-wrapper.is-sticky .horizontalMenu > .horizontalMenu-list > li:hover > a {
-  color: #a4ce99;
+  color: #1a7104;
 }
 
 .bg-background3 .top-bar {
